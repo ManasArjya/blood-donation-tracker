@@ -12,18 +12,26 @@ A modern, responsive full-stack web application built with **React.js**, **Fireb
 
 ## 📸 Screenshots
 
-> Add screenshots in `/assets/screenshots/` or directly here once the UI is ready.
+- ![Homepage]<img width="1920" height="1080" alt="Screenshot (738)" src="https://github.com/user-attachments/assets/0190131e-3ce8-419b-b3e2-0208cffdf76f" />
 
-- ![Homepage](/blood-donation-tracker/public/assets/screenshots/homepage.png)
-- ![Signup Page](/blood-donation-tracker/public/assets/screenshots/signup%20page.png)
-- ![Login Page](/blood-donation-tracker/public/assets/screenshots/login%20page.png)
-- ![Contact Us Page](/blood-donation-tracker/public/assets/screenshots/contact%20us%20page.png)
-- ![About Us Page1](/blood-donation-tracker/public/assets/screenshots/Aboutus1.png)
-- ![About Us Page2](/blood-donation-tracker/public/assets/screenshots/Aboutus2.png)
-- ![Search Donors page](/blood-donation-tracker/public/assets/screenshots/DonorSearch%20page.png)
-- ![Donation Centre Page](/blood-donation-tracker/public/assets/screenshots/Donation%20Centrre%20page.png)
-- ![Donation Dashboard Page](/blood-donation-tracker/public/assets/screenshots/DonationDashboard.png)
-- ![Profile Page](/blood-donation-tracker/public/assets/screenshots/profile%20page.png)
+- ![Signup Page]<img width="1919" height="870" alt="Screenshot 2025-07-22 231514" src="https://github.com/user-attachments/assets/504e1030-677d-490f-a79c-d4c6dd17a936" />
+
+- ![Login Page]<img width="1919" height="867" alt="Screenshot 2025-07-22 231454" src="https://github.com/user-attachments/assets/c4cf6969-222f-43fe-909e-75437646649d" />
+
+- ![Contact Us Page]<img width="1919" height="867" alt="Screenshot 2025-07-22 231349" src="https://github.com/user-attachments/assets/695cc7d9-050a-4d9a-a505-ba799d4a0bda" />
+
+- ![About Us Page1]<img width="1919" height="865" alt="Screenshot 2025-07-22 231259" src="https://github.com/user-attachments/assets/322eaf72-e747-4089-a182-2fef1c4e47f1" />
+
+- ![About Us Page2]<img width="1919" height="865" alt="Screenshot 2025-07-22 231316" src="https://github.com/user-attachments/assets/37bcf81c-291e-49fb-8a39-e3bb51e3be16" />
+
+- ![Search Donors page]<img width="1918" height="867" alt="Screenshot 2025-07-22 231115" src="https://github.com/user-attachments/assets/909d9626-a1fc-4f14-be39-ae4438308ec7" />
+
+- ![Donation Centre Page]<img width="1918" height="867" alt="Screenshot 2025-07-22 230912" src="https://github.com/user-attachments/assets/d5a3c40e-e6d5-4eba-9143-e9bf1726c4f3" />
+
+- ![Donation Dashboard Page]<img width="1913" height="870" alt="Screenshot 2025-07-22 231239" src="https://github.com/user-attachments/assets/9b110e11-fe8d-4ded-a6be-97c663d22984" />
+
+- ![Profile Page]<img width="1912" height="870" alt="Screenshot 2025-07-22 231412" src="https://github.com/user-attachments/assets/718c7e7a-2be6-49a7-a2c0-12dd9e840bcc" />
+
 
 ---
 
@@ -52,32 +60,32 @@ A modern, responsive full-stack web application built with **React.js**, **Fireb
 
 ## 🧱 Folder Structure
 
-blood-donation-tracker/
-├── public/
+blood-donation-tracker/  <br/>
+├── public/      <br/>
 ├── src/
-│ ├── components/
-│ │ ├── Footer.jsx
-│ │ ├── Header.jsx
-│ ├── pages/
-│ │ ├── Login.jsx
-│ │ ├── Signup.jsx
-│ │ ├── Contact.jsx
-│ │ ├── Home.jsx
-│ │ ├── SearchDonor.jsx
-│ │ ├── Profile.jsx
-│ │ ├── DonorDashboard.jsx
-│ │ ├── DonationCenters.jsx
-│ │ ├── AboutUs.jsx
-│ ├── firebase.js
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── App.css
-│ ├── index.js
-│ ├── index.css
-├── package.json
-│── README.md
-├── index.html
-└── vite.config.js
+│ ├── components/  <br/>
+│ │ ├── Footer.jsx      <br/>
+│ │ ├── Header.jsx      <br/>
+│ ├── pages/            <br/>
+│ │ ├── Login.jsx        <br/>
+│ │ ├── Signup.jsx      <br/>
+│ │ ├── Contact.jsx      <br/>
+│ │ ├── Home.jsx          <br/>
+│ │ ├── SearchDonor.jsx    <br/>
+│ │ ├── Profile.jsx        <br/>
+│ │ ├── DonorDashboard.jsx    <br/>
+│ │ ├── DonationCenters.jsx    <br/>
+│ │ ├── AboutUs.jsx            <br/>
+│ ├── firebase.js              <br/>
+│ ├── App.jsx                  <br/>
+│ ├── main.jsx                <br/>
+│ ├── App.css                <br/>
+│ ├── index.js            <br/>
+│ ├── index.css            <br/>
+├── package.json            <br/>
+│── README.md                <br/>
+├── index.html                <br/>
+└── vite.config.js            <br/>
 
 
 

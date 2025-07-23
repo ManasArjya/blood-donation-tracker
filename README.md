@@ -108,25 +108,23 @@ npm install
 
 #### 3. Setup Firebase:
 
-Go to Firebase Console
+1.Go to Firebase Console
 
-Create a new project
+2.Create a new project
 
-Enable Authentication → Email/Password
+3.Enable Authentication → Email/Password
 
-Create a Cloud Firestore database (in test mode)
+4.Create a Cloud Firestore database (in test mode)
 
-Click "Add Web App" and copy your config
+5.Click "Add Web App" and copy your config
 
-Create a new file:
-touch src/firebase.js
+6.Create a new file:
+src/firebase.js
 
-Paste this:
+Paste this:( in the api section edit and put your firebase details)
 
-js
-Copy
-Edit
 // src/firebase.js
+
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
@@ -155,7 +153,8 @@ npm run dev
 npm start
 
 ### Details
-💅 Styling & Animations
+💅 Styling & Animations:
+
 Material UI for structure and spacing
 
 PrimeReact components for inputs/buttons
@@ -166,7 +165,8 @@ Fully responsive layout
 
 Custom index.css to maintain theme consistency
 
-🔐 Authentication Logic
+🔐 Authentication Logic:
+
 Signup uses createUserWithEmailAndPassword
 
 On signup, user record is stored in Firestore
@@ -175,14 +175,16 @@ Login with signInWithEmailAndPassword
 
 Basic error handling with UI feedback
 
-📧 Contact Page
+📧 Contact Page:
+
 Fully animated Contact form
 
 Captures user name, email, and message
 
 Currently logs form data to console (can be extended to send via email or store in DB)
 
-📥 Future Enhancements
+📥 Future Enhancements:
+
 🔍 Advanced Donor Search (by blood group, location)
 
 🗺️ Google Maps Integration to show nearby donors
@@ -196,10 +198,10 @@ Currently logs form data to console (can be extended to send via email or store 
 🧾 Donation history for logged-in users
 
 
-### 📦 Dependencies
+📦 Dependencies:
+
 json
-Copy
-Edit
+
 "dependencies": {
   "@mui/material": "^5.x",
   "firebase": "^10.x",
